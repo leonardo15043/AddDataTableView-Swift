@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4964AEED21B1B40500F82CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964AEEC21B1B40500F82CFA /* AppDelegate.swift */; };
-		4964AEEF21B1B40500F82CFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964AEEE21B1B40500F82CFA /* ViewController.swift */; };
 		4964AEF221B1B40500F82CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4964AEF021B1B40500F82CFA /* Main.storyboard */; };
 		4964AEF421B1B40800F82CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4964AEF321B1B40800F82CFA /* Assets.xcassets */; };
 		4964AEF721B1B40800F82CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4964AEF521B1B40800F82CFA /* LaunchScreen.storyboard */; };
+		4964AF0121B1F27300F82CFA /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964AF0021B1F27300F82CFA /* CarListViewController.swift */; };
+		4964AF0321B21E3300F82CFA /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4964AF0221B21E3300F82CFA /* CarDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4964AEE921B1B40500F82CFA /* AddDataTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddDataTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4964AEEC21B1B40500F82CFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4964AEEE21B1B40500F82CFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4964AEF121B1B40500F82CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4964AEF321B1B40800F82CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4964AEF621B1B40800F82CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4964AEF821B1B40800F82CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4964AF0021B1F27300F82CFA /* CarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewController.swift; sourceTree = "<group>"; };
+		4964AF0221B21E3300F82CFA /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				4964AEEC21B1B40500F82CFA /* AppDelegate.swift */,
-				4964AEEE21B1B40500F82CFA /* ViewController.swift */,
 				4964AEF021B1B40500F82CFA /* Main.storyboard */,
 				4964AEF321B1B40800F82CFA /* Assets.xcassets */,
 				4964AEF521B1B40800F82CFA /* LaunchScreen.storyboard */,
 				4964AEF821B1B40800F82CFA /* Info.plist */,
+				4964AF0021B1F27300F82CFA /* CarListViewController.swift */,
+				4964AF0221B21E3300F82CFA /* CarDetailViewController.swift */,
 			);
 			path = AddDataTableView;
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4964AEEF21B1B40500F82CFA /* ViewController.swift in Sources */,
 				4964AEED21B1B40500F82CFA /* AppDelegate.swift in Sources */,
+				4964AF0121B1F27300F82CFA /* CarListViewController.swift in Sources */,
+				4964AF0321B21E3300F82CFA /* CarDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9NWE9GSYU3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AddDataTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,6 +296,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gpets.ios.AddDataTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +306,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9NWE9GSYU3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AddDataTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gpets.ios.AddDataTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

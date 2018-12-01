@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "6cb8bf9d0175e7c0f02c91a36ec296ff"
+build_time: [1543635433, 317606000]
+inputs:
+  "/Users/leonardo15043/Documents/GitHub/AddDataTableView/AddDataTableView/AppDelegate.swift": [1543601285, 0]
+  "/Users/leonardo15043/Documents/GitHub/AddDataTableView/AddDataTableView/CarListViewController.swift": [1543634890, 0]
+  "/Users/leonardo15043/Documents/GitHub/AddDataTableView/AddDataTableView/CarDetailViewController.swift": [1543634791, 0]
